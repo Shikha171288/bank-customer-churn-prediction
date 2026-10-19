@@ -165,12 +165,29 @@ Future improvements could include:
 - SHAP-based model explanations
 - Deployment as an interactive prediction application
 
+
+## How to Run the Project
+
+1. Download or clone this GitHub repository.
+2. Install the required Python libraries using:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Open `Bank_Customer_Churn_Prediction.ipynb` in Jupyter Notebook or Google Colab.
+4. Ensure that `Churn_Modelling.csv` is available in the notebook's current working directory. If using Google Colab, upload the CSV file to the Colab session.
+5. Run the notebook cells in sequence to reproduce the analysis and model results.
+
+  
+
 ## Repository Files
 
 - `Bank_Customer_Churn_Prediction.ipynb`: Complete analysis and model development
 - `Churn_Modelling.csv`: Project dataset
 - `README.md`: Project documentation
 - `.gitignore`: Files excluded from version control
+- - `requirements.txt`: Python dependencies required to run the project
 
 ## Final Conclusion
 
